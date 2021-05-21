@@ -70,8 +70,8 @@
     font-size: 0;
   }
 
-  & .slick-dots li+& .slick-dots li {
-    margin-left: 15px;
+  & .slick-dots li {
+    margin: 0 7.5px;
   }
 
   & .slick-dots button {
