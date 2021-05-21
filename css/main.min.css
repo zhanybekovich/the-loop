@@ -295,8 +295,8 @@ body {
   font-size: 0;
 }
 
-.slider .slick-dots li + .slider .slick-dots li {
-  margin-left: 15px;
+.slider .slick-dots li {
+  margin: 0 7.5px;
 }
 
 .slider .slick-dots button {
@@ -320,4 +320,89 @@ body {
   color: #fff;
   text-decoration: none;
   background-color: #D7B399;
+}
+
+.info {
+  background-color: #000;
+  color: #fff;
+}
+
+.info__inner {
+  max-width: 590px;
+  margin: 0 auto;
+  padding-top: 80px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+
+.info__title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.info__title span {
+  font-weight: 300;
+}
+
+.info__txt {
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.catalog__top {
+  padding-top: 60px;
+  background-color: #F9F6F1;
+}
+
+.catalog__inner {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.catalog__top-column {
+  min-height: 250px;
+  background-image: url("../../images/cat-column-bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.catalog__top-column--mens {
+  background-position: bottom right 15px;
+}
+
+.catalog__top-column--womens {
+  background-image: url("../../images/cat-column-women-bg.png");
+  background-position: bottom right 44px;
+}
+
+.catalog__title {
+  margin: 0 0 25px 0;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.catalog__title span {
+  font-weight: 300;
+}
+
+.catalog__descr {
+  margin: 0 0 40px 0;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.catalog__btn {
+  padding: 11px 30px;
 }
