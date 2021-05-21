@@ -51,4 +51,45 @@
   &__btn {
     padding: 11px 30px;
   }
+
+  &__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: $secondary-color;
+  }
+
+  &__item {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  &__item-title {
+    position: absolute;
+    bottom: 24px;
+    left: 30px;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    color: $dark;
+  }
+
+  &__item-title a{
+    color: currentColor;
+    color: $dark;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  &__item-img {
+    max-width: 277px;
+  }
+
+
+
+
 }

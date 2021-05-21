@@ -406,3 +406,48 @@ body {
 .catalog__btn {
   padding: 11px 30px;
 }
+
+.catalog__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  background-color: #F9F6F1;
+}
+
+.catalog__item {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.catalog__item-title {
+  position: absolute;
+  bottom: 24px;
+  left: 30px;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  color: #000;
+}
+
+.catalog__item-title a {
+  color: currentColor;
+  color: #000;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.catalog__item-img {
+  max-width: 277px;
+}
