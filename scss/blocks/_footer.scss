@@ -1,0 +1,42 @@
+@import '../vars';
+
+.footer {
+
+  &__info {
+    padding-top: 73px;
+    padding-bottom: 78px;
+    background-color: $accent-dark;
+    color: $light;
+  }
+
+  &__inner {
+    display: grid;
+    grid-template-columns: 3fr 2fr 2fr 3fr 2fr;
+  }
+
+  &__text {
+    margin-right: 125px;
+  }
+
+  &__column {
+    margin-left: 20x;
+  }
+
+  &__column:first-child {
+    margin: 0;
+    margin-left: 30px;
+  }
+
+  &__copy-inner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__copy p {
+    width: 50%;
+  }
+
+  &__copy p:last-child {
+    text-align: right;
+  }
+}

@@ -79,7 +79,6 @@
   }
 
   &__item-title a{
-    color: currentColor;
     color: $dark;
     text-transform: uppercase;
     text-decoration: none;
@@ -88,8 +87,4 @@
   &__item-img {
     max-width: 277px;
   }
-
-
-
-
 }
