@@ -369,7 +369,7 @@ body {
 
 .catalog__top-column {
   min-height: 250px;
-  background-image: url("../../images/cat-column-bg.png");
+  background-image: url("../images/cat-column-bg.png");
   background-repeat: no-repeat;
   background-position: bottom right;
 }
@@ -379,7 +379,7 @@ body {
 }
 
 .catalog__top-column--womens {
-  background-image: url("../../images/cat-column-women-bg.png");
+  background-image: url("../images/cat-column-women-bg.png");
   background-position: bottom right 44px;
 }
 
@@ -480,7 +480,7 @@ body {
   height: 8px;
   right: 35px;
   top: 21px;
-  background-image: url("../../images/arrow.svg");
+  background-image: url("../images/arrow.svg");
   background-position: center;
 }
 
