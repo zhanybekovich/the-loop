@@ -524,7 +524,9 @@ body {
 }
 
 .models h3 {
+  position: relative;
   padding: 0 2em;
+  z-index: 2;
 }
 
 .models h3 a {

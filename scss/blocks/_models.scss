@@ -37,7 +37,9 @@
   }
 
   & h3 {
+    position: relative;
     padding: 0 2em;
+    z-index: 2;
   }
 
   & h3 a {
