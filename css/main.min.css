@@ -697,14 +697,15 @@ body {
   content: "";
   width: 24px;
   height: 24px;
-  background-image: url("../../images/vk.svg");
+  background-image: url("../images/vk.svg");
   background-repeat: no-repeat;
 }
 
 .socials__link--fb::before {
-  background-image: url("../../images/fb.svg");
+  background-image: url("../images/fb.svg");
 }
 
 .socials__link--in::before {
-  background-image: url("../../images/in.svg");
+  background-image: url("../images/in.svg");
 }
+/*# sourceMappingURL=main.min.css.map */
